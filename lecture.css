@@ -1,0 +1,67 @@
+/* Base Styles */
+h1 {
+  font-size: 40px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+/* Positioning */
+.parent {
+  width: 600px;
+  height: 600px;
+  margin: 20px;
+  border: 1px solid black;
+  background-color: grey;
+}
+
+.static {
+  margin: 10px;
+  background-color: lightblue;
+}
+.relative_parking_space {
+  height: 102px;
+  width: 102px;
+  margin: 10px;
+  border: 1px solid black;
+}
+.relative {
+  background-color: lightpink;
+  position: relative;
+}
+
+
+.absolute {
+  background-color: lavender;
+  position: absolute;
+  margin: 10px;
+}
+
+.fixed {
+  background-color: orange;
+  position: fixed;
+  margin: 10px;
+}
+
+.sticky {
+  background-color: thistle;
+  position: sticky;
+  margin: 10px;
+}
+
+
+
+/* Flex */
+.flex_parent {
+  margin-left: 90px;
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+}
+
+.flex {
+  background-color: yellowgreen;
+  border: 1px solid black;
+}
+
